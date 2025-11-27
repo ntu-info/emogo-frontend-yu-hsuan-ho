@@ -7,13 +7,8 @@ export default function DetailsScreen() {
   return (
     <View style={styles.container}>
       {/* This screen is shown on top of the Tabs stack */}
-      <Text style={styles.title}>Details screen</Text>
+      <Text style={styles.title}>building APP is so hard🥺</Text>
 
-      {/* Imperative navigation using the router hook */}
-      <Button
-        title="Go back (router.back())"
-        onPress={() => router.back()}
-      />
 
       {/* Declarative navigation using a link back to the home tab */}
       <Link href="/(tabs)" style={styles.link}>

@@ -4,23 +4,26 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "expo-router-mwe",
-    "slug": "expo-router-mwe",
+    "name": "emogo-data-collector",
+    "slug": "emogo-data-collector",
     "android": {
-      "package": "com.spiketren.exporoutermwe"
+      "package": "com.spiketren.emogodatacollector"
+    },
+    "ios": {
+      "bundleIdentifier": "com.spiketren.emogodatacollector",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "7918e76f-59e9-45c4-aae4-c99cec64cfac"
+        "projectId": "99b1a57d-b064-45d7-b182-b040d7ac72bf"
       }
     },
-    "owner": "spiketren",
-    "ios": {
-      "bundleIdentifier": "com.spiketren.exporoutermwe",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+    "owner": "yuhsuanho",
+    "updates": {
+      "url": "https://u.expo.dev/7918e76f-59e9-45c4-aae4-c99cec64cfac"
     }
   }
 }
